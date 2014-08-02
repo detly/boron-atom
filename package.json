@@ -1,0 +1,11 @@
+{
+  "name": "boron-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "A dark theme with a bright pastel palette",
+  "repository": "https://github.com/detly/boron-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}

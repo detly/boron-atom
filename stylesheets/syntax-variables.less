@@ -1,0 +1,46 @@
+@import "colors";
+
+// Some common categories of stuff
+@caret       : @duck-egg;
+@code        : @light;
+@text        : @green-army;
+@annotations : @even-darker;
+@comment     : @darker;
+@alert       : @blush;
+@happy       : @green-olive;
+@var         : @peach-medium;
+@function    : @peach-light;
+@keyword     : @blue-light;
+@diff-add    : @green-leaf;
+@diff-del    : @blush;
+@diff-h-fg   : @bright;
+@diff-h-bg   : @blue-blue;
+@diff-rng    : @darker;
+@diff-chg    : @purple-faint;
+
+// General colors
+@syntax-text-color: @code;
+@syntax-cursor-color: @caret;
+@syntax-selection-color: @darker-yet;
+@syntax-background-color: @background;
+
+// Guide colors
+@syntax-wrap-guide-color: @annotations;
+@syntax-indent-guide-color: @annotations;
+@syntax-invisible-character-color: @annotations;
+
+// For find and replace markers
+@syntax-result-marker-color: @caret;
+@syntax-result-marker-color-selected: @caret;
+
+// Gutter colors
+@syntax-gutter-text-color: @code;
+@syntax-gutter-text-color-selected: @syntax-gutter-text-color;
+@syntax-gutter-background-color: @background;
+@syntax-gutter-background-color-selected: @darker-yet;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @diff-chg;
+@syntax-color-added: @diff-add;
+@syntax-color-modified: @diff-chg;
+@syntax-color-removed: @diff-del;
