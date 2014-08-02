@@ -3,7 +3,7 @@ Boron theme for Atom
 
 A port of the Boron theme for [Atom](https://atom.io).
 
-![Boron theme sample](Boron1.png "Boron theme sample")
+![Boron theme sample](http://detly.github.io/boron-atom/Boron1.png "Boron theme sample")
 
 It is based on the [Boron theme](https://github.com/mjio/boron.tmtheme) for
 [Sublime Text](http://www.sublimetext.com/) by
