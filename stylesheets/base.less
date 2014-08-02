@@ -27,7 +27,7 @@
 
     .line-number {
       &.cursor-line {
-        background-color: @darker;
+        background-color: @extra-dark;
         color: @syntax-gutter-text-color-selected;
       }
 
@@ -71,8 +71,7 @@
 
 .entity {
   &.name.type {
-    color: #ff0000;
-    text-decoration: underline;
+    color: @var;
   }
 
   &.other.inherited-class {
@@ -101,7 +100,7 @@
 }
 
 .storage {
-  color: @var;
+  color: @syntax-text-color;
 }
 
 .constant {
@@ -164,7 +163,10 @@
       color: @comment;
     }
 
-    &.string,
+    &.string {
+      color: @green-olive;
+    }
+
     &.variable,
     &.parameters,
     &.array {
@@ -236,7 +238,7 @@
 
 .meta {
   &.class {
-    color: @var;
+    color: @syntax-text-color;
   }
 
   &.link {
