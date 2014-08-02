@@ -104,10 +104,8 @@
 }
 
 .constant {
-  color: @peach-dark;
-
   &.character.escape {
-    color: @reddish;
+    color: @green-leaf;
   }
 
   &.numeric {
@@ -150,6 +148,22 @@
     .source.ruby.embedded {
       color: @syntax-text-color;
     }
+
+    .punctuation.definition.string {
+      color: @migraine;
+    }
+
+    .constant.character.escape {
+      color: @purple-faint;
+    }
+
+    .operator {
+      color: @migraine;
+    }
+
+    .keyword.control {
+      color: @migraine;
+    }
   }
 
   &.other.link {
@@ -167,12 +181,6 @@
       color: @green-olive;
     }
 
-    &.variable,
-    &.parameters,
-    &.array {
-      color: @syntax-text-color;
-    }
-
     &.heading,
     &.identity {
       color: @blue-light;
@@ -188,11 +196,6 @@
       font-style: italic;
     }
   }
-
-  &.section.embedded {
-    color: @blush
-  }
-
 }
 
 .support {
@@ -223,8 +226,7 @@
   }
 
   &.name.tag {
-    color: @alert;
-    text-decoration: underline;
+    color: @var;
   }
 
   &.other.attribute-name {
