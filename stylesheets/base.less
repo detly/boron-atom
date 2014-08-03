@@ -267,7 +267,7 @@
 
 .markup {
   &.bold {
-    color: @blue-adequate;
+    color: @var;
     font-style: bold;
   }
 
@@ -280,7 +280,7 @@
   }
 
   &.italic {
-    color: @blue-adequate;
+    color: @var;
     font-style: italic;
   }
 
@@ -305,10 +305,21 @@
   }
 }
 
-.source.gfm .markup {
-  -webkit-font-smoothing: auto;
-  &.heading {
-    color: @var;
+.source.gfm {
+
+  .constant {
+      color: @darker;
+  }
+
+  .link {
+      color: @green-army;
+  }
+
+  .markup {
+    -webkit-font-smoothing: auto;
+    &.heading {
+      color: @var;
+    }
   }
 }
 
